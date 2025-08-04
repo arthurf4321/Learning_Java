@@ -2,24 +2,9 @@ package learning_java;
 
 import java.util.Scanner;
 
-public class Main {
+public class Operadores_atribuiçãoe_Logicos {
     
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); 
-        System.out.println("Ola, qual seu nome");
-        String name = scanner.next();
-        System.out.println("informe sua idade");
-        int age = scanner.nextInt();
-        System.out.println("Ola " + name + " voce tem " + age + " anos");
-        } 
-}
-
-
-
-/*  Operadores de atribuição e Logicos
-public class Main {
-    
-    public static void main(String[] args) {
+    public static void quizSoma(String[] args) {
         
         var scanner = new Scanner(System.in);
         System.out.println("Quanto é 2 + 2");
@@ -27,13 +12,19 @@ public class Main {
         var isRight = result == 4;
         System.out.printf("Voce acertou? ", isRight);
         if(isRight) System.out.println("Parabens");
+    }
 
+    public static void quizErro(String[] args) {
+        
         var scanner = new Scanner(System.in);
         System.out.println("Quanto é 2 + 2");
         var result = scanner.nextInt();
         var isWrong = result != 4;
         System.out.printf("Voce errou? ", !isWrong);
+    }
 
+      public static void testDrive(String[] args) {
+        
         var scanner = new Scanner(System.in); 
         System.out.println("Quantos anos vc tem?");
         var age = scanner.nextInt();
@@ -43,4 +34,3 @@ public class Main {
         System.out.printf("Voce pode dirigir? ", canDrive);
     }
 }
-    */
